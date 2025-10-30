@@ -1,0 +1,140 @@
+ body {
+      font-family: "Noto Sans Bengali", sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 1.6rem;
+    }
+
+    nav {
+      background: #fff;
+      display: flex;
+      justify-content: space-around;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav button {
+      background: none;
+      border: none;
+      padding: 12px 15px;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #2e8b57;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav button.active, nav button:hover {
+      background: #2e8b57;
+      color: white;
+      border-radius: 5px;
+    }
+
+    section {
+      display: none;
+      padding: 20px;
+    }
+
+    section.active {
+      display: block;
+      animation: fadeIn 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .bazar-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+    }
+
+    th, td {
+      border-bottom: 1px solid #eee;
+      text-align: center;
+      padding: 6px;
+    }
+
+    th {
+      background: #e6f2ec;
+      color: #2e8b57;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #2e8b57;
+      color: white;
+      margin-top: 30px;
+    }
+
+    input[type="checkbox"] {
+      transform: scale(1.2);
+      accent-color: #2e8b57;
+    }
+
+    .clear-btn {
+      background: #dc3545;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .member-list {
+      background: white;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .member-list ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .member-list li {
+      padding: 8px;
+      border-bottom: 1px solid #eee;
+    }
+
+    span {
+      color: #2e8b57;
+      font-weight: bold;
+    }
+
+    #foter footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1px;
+      font-size: 0.9rem;
+    }

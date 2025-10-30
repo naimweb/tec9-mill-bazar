@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title> মিলের বাজার</title>
+  
+</head>
+<body>
+
+  <header>🍛 মিলের বাজার</header>
+
+  <nav>
+    <button class="active" onclick="showSection('home')">🏠 হোম</button>
+    <button onclick="showSection('bazar')">🛒 বাজার</button>
+    <button onclick="showSection('members')">👥 সদস্য তালিকা</button>
+    <button onclick="showSection('purchase')">📦 khori</button>
+  </nav>
+
+  <section id="home" class="active">
+    <h2>Welcome to Tec 9th floor boys hostell</h2>
+    <p>এই ওয়েবসাইটে তুমি তোমাদের মিলের বাজার, সদস্য, এবং ক্রয়ের তালিকা দেখতে পারবে।</p>
+  </section>
+
+  <section id="bazar">
+    <h2>🛍️ বাজারের তালিকা</h2>
+    <div id="bazarContainer"></div>
+    <button class="clear-btn" onclick="clearAll()">🧹 সব ক্লিয়ার করো</button>
+  </section>
+
+  <section id="members">
+    <h2>👥 সদস্য তালিকা</h2>
+    <div class="member-list">
+      <ul>
+        <li>rejoan -------------- <span>1700tk</span></li>
+        <li>রিফাত - ক্রেতা</li>
+        <li>নাবিল - রান্নার দায়িত্বে</li>
+        <li>তানভীর - হিসাব রাখে</li>
+        <li>রিমন - সাহায্যকারী</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="purchase">
+    <h2>Date:01 - 11 - 2025</h2>
+    <li>2mon = 300tk</li>
+    <div>
+    <h2>Date:04-11-2025</h2>
+    <li>4mon = 500tk</li>
+    </div>
+  </section>
+  
+
+  <div id='foter'>
+    <footer>© ২০২৫ মিলের বাজার | creator with naim !</footer>
+  </div>
+
+</body>
+</html>
+
+<script src = "script.js"></script>
