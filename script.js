@@ -22,7 +22,23 @@
           { name: "পেঁয়াজ", qty: "২ কেজি", price: 120 },
           { name: "মুরগি", qty: "১.৫ কেজি", price: 360 }
         ]
-      }
+      },
+      {
+        title: "বাজার ২: মঙ্গলবার",
+        items: [
+          { name: "আলু", qty: "৩ কেজি", price: 900 },
+          { name: "পেঁয়াজ", qty: "২ কেজি", price: 120 },
+          { name: "মুরগি", qty: "১.৫ কেজি", price: 360 }
+        ]
+      },
+      {
+        title: "বাজার ২: মঙ্গলবার",
+        items: [
+          { name: "আলু", qty: "৩ কেজি", price: 900 },
+          { name: "পেঁয়াজ", qty: "২ কেজি", price: 120 },
+          { name: "মুরগি", qty: "১.৫ কেজি", price: 360 }
+        ]
+      },
     ];
 
     const container = document.getElementById("bazarContainer");
