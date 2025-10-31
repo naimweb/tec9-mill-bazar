@@ -9,36 +9,36 @@
       {
         title: "বাজার ১: সোমবার",
         items: [
-          { name: "চাল", qty: "৫ কেজি", price: 350 },
-          { name: "ডাল", qty: "২ কেজি", price: 160 },
-          { name: "তেল", qty: "১ লিটার", price: 190 },
-          { name: "lobon", qty :" 2 kg", price: 200 }
+          { name: "চাল", qty: "৫ কেজি", price: 150 },
+          { name: "ডাল", qty: "২ কেজি", price: 200 },
+          { name: "তেল", qty: "১ লিটার", price: 300 },
+          { name: "lobon", qty :" 2 kg", price: 100}
         ]
       },
-      {
-        title: "বাজার ২: মঙ্গলবার",
-        items: [
-          { name: "আলু", qty: "৩ কেজি", price: 900 },
-          { name: "পেঁয়াজ", qty: "২ কেজি", price: 120 },
-          { name: "মুরগি", qty: "১.৫ কেজি", price: 360 }
-        ]
-      },
-      {
-        title: "বাজার ২: মঙ্গলবার",
-        items: [
-          { name: "আলু", qty: "৩ কেজি", price: 900 },
-          { name: "পেঁয়াজ", qty: "২ কেজি", price: 120 },
-          { name: "মুরগি", qty: "১.৫ কেজি", price: 360 }
-        ]
-      },
-      {
-        title: "বাজার ২: মঙ্গলবার",
-        items: [
-          { name: "আলু", qty: "৩ কেজি", price: 900 },
-          { name: "পেঁয়াজ", qty: "২ কেজি", price: 120 },
-          { name: "মুরগি", qty: "১.৫ কেজি", price: 360 }
-        ]
-      },
+      // {
+      //   title: "বাজার ২: মঙ্গলবার",
+      //   items: [
+      //     { name: "আলু", qty: "৩ কেজি", price: 900 },
+      //     { name: "পেঁয়াজ", qty: "২ কেজি", price: 120 },
+      //     { name: "মুরগি", qty: "১.৫ কেজি", price: 360 }
+      //   ]
+      // },
+      // {
+      //   title: "বাজার ২: মঙ্গলবার",
+      //   items: [
+      //     { name: "আলু", qty: "৩ কেজি", price: 900 },
+      //     { name: "পেঁয়াজ", qty: "২ কেজি", price: 120 },
+      //     { name: "মুরগি", qty: "১.৫ কেজি", price: 360 }
+      //   ]
+      // },
+      // {
+      //   title: "বাজার ২: মঙ্গলবার",
+      //   items: [
+      //     { name: "আলু", qty: "৩ কেজি", price: 900 },
+      //     { name: "পেঁয়াজ", qty: "২ কেজি", price: 120 },
+      //     { name: "মুরগি", qty: "১.৫ কেজি", price: 360 }
+      //   ]
+      // },
     ];
 
     const container = document.getElementById("bazarContainer");
