@@ -7,12 +7,22 @@
 
     const bazarData = [
       {
-        title: "বাজার ১: সোমবার",
+        title: "bajar 1: saturday  01-11-25",
         items: [
-          { name: "চাল", qty: "৫ কেজি", price: 150 },
-          { name: "ডাল", qty: "২ কেজি", price: 200 },
-          { name: "তেল", qty: "১ লিটার", price: 300 },
-          { name: "lobon", qty :" 2 kg", price: 100}
+          { name: "alu", qty: "15 kg", price: "170 " },
+          { name: "morich", qty: "1 kg ", price: "70 " },
+          { name: "lau", qty :" 3 pich ", price: "30 "},
+          { name: "pepe", qty: "7 pich", price: "50 "},
+          { name: "piyas", qty :" 1.5 kj ", price: "125 "},
+          { name: "sukna morich", qty :" ", price: "20"},
+          { name: "ada + roson", qty :"44 pich", price: "40 "},
+          { name: "mach", qty :" 3.100 kg", price: "510 "},
+          { name: "dim", qty :"44 pich", price: "440 "},
+          { name: "murgi", qty :" 2 kg", price: "340 "},
+          { name: "mosla bajar", qty :" mot ", price: 765},
+          
+          { name: "vara + khaoa", qty :"44 pich", price: "150 "},
+          
         ]
       },
       // {
@@ -55,7 +65,7 @@
       table.innerHTML = `<tr><th>আইটেম</th><th>পরিমাণ</th><th>দাম</th><th>✔</th></tr>`;
 
       
-      let totalPrice = bazar.items.reduce((sum, item) => sum + item.price, 0);
+      let totalPrice = bazar.items.reduce((sum, item) => sum + Number(item.price), 0);
 
       bazar.items.forEach((item, j) => {
         const key = `${i}-${j}`;
@@ -69,7 +79,7 @@
         tr.innerHTML = `
           <td>${item.name}</td>
           <td>${item.qty}</td>
-          <td>${item.price} ৳</td>
+          <td>${item.price} tk</td>
         `;
 
         const tdCheck = document.createElement("td");
@@ -88,7 +98,7 @@
       const trTotal = document.createElement("tr");
       trTotal.innerHTML = `
         <td colspan="2" style="text-align:right;font-weight:bold;">মোট দাম:</td>
-        <td colspan="2" style="font-weight:bold;">${totalPrice} ৳</td>
+        <td colspan="2" style="font-weight:bold;">${totalPrice} tk</td>
       `;
       table.appendChild(trTotal);
 
