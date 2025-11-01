@@ -14,14 +14,14 @@
           { name: "lau", qty :" 3 pich ", price: "30 "},
           { name: "pepe", qty: "7 pich", price: "50 "},
           { name: "piyas", qty :" 1.5 kj ", price: "125 "},
-          { name: "sukna morich", qty :" ", price: "20"},
-          { name: "ada + roson", qty :"44 pich", price: "40 "},
+          { name: "sukna morich", qty :" ..", price: "20"},
+          { name: "ada + roson", qty :" ..", price: "40 "},
           { name: "mach", qty :" 3.100 kg", price: "510 "},
           { name: "dim", qty :"44 pich", price: "440 "},
-          { name: "murgi", qty :" 2 kg", price: "340 "},
+          { name: "murgi", qty :" 2.290 kg", price: "340 "},
           { name: "mosla bajar", qty :" mot ", price: 765},
           
-          { name: "vara + khaoa", qty :"44 pich", price: "150 "},
+          { name: "vara + khaoa", qty :"..", price: "150 "},
           
         ]
       },
