@@ -22,6 +22,8 @@
           { name: "mosla bajar", qty :" mot ", price: 765},
           
           { name: "vara + khaoa", qty :"..", price: "150 "},
+          { name: "alu ", qty :"3kg ", price: "60 tk "},
+
           
         ]
       },
