@@ -19,38 +19,100 @@
           { name: "mach", qty :" 3.100 kg", price: "510 "},
           { name: "dim", qty :"44 pich", price: "440 "},
           { name: "murgi", qty :" 2.290 kg", price: "340 "},
-          { name: "mosla bajar", qty :" mot ", price: 765},
+          { name: "mosla bajar", qty :" mot ", price: 765 +30},
           
           { name: "vara + khaoa", qty :"..", price: "150 "},
-          { name: "alu ", qty :"3kg ", price: "60 tk "},
+          { name: "kacha bazar (ashik) ", qty :"..", price: "100"},
+
+          { name: "alu ", qty :"3kg ", price: 60  },
+          { name: "Register khata ", qty :"", price: 80 },
+
 
           
         ]
       },
-      // {
-      //   title: "বাজার ২: মঙ্গলবার",
-      //   items: [
-      //     { name: "আলু", qty: "৩ কেজি", price: 900 },
-      //     { name: "পেঁয়াজ", qty: "২ কেজি", price: 120 },
-      //     { name: "মুরগি", qty: "১.৫ কেজি", price: 360 }
-      //   ]
-      // },
-      // {
-      //   title: "বাজার ২: মঙ্গলবার",
-      //   items: [
-      //     { name: "আলু", qty: "৩ কেজি", price: 900 },
-      //     { name: "পেঁয়াজ", qty: "২ কেজি", price: 120 },
-      //     { name: "মুরগি", qty: "১.৫ কেজি", price: 360 }
-      //   ]
-      // },
-      // {
-      //   title: "বাজার ২: মঙ্গলবার",
-      //   items: [
-      //     { name: "আলু", qty: "৩ কেজি", price: 900 },
-      //     { name: "পেঁয়াজ", qty: "২ কেজি", price: 120 },
-      //     { name: "মুরগি", qty: "১.৫ কেজি", price: 360 }
-      //   ]
-      // },
+      {
+        title: "bazar 2: wednesday  04-11-25",
+        items: [
+          { name: "alu", qty: "20 kg", price: "230 " },
+          { name: "piyas", qty :" 2 kj ", price: "180 "},
+          { name: "morich", qty: "1.500 gram", price: "80" },
+          { name: "potol", qty: "2 kg", price: "60" },
+          { name: "lau", qty :" 2 pich ", price: "50 "},
+          { name: "misti kumra ", qty :"  ", price: "70"},
+          
+          
+          { name: "sukna morich", qty :" ..", price: "20"},
+          { name: "ada + roson", qty :" ..", price: "50 "},
+          { name: "mach", qty :" 1.600 kg", price: "240 "},
+          { name: "murgi", qty :" 2.290 kg", price: "330 "},
+          { name: "dim", qty :"44 pich", price: "440 "},
+          { name: "mosla bajar", qty :" mot ", price: 720},
+          
+          { name: "vara + khaoa", qty :"..", price: "150 "},
+          { name:"muri (meeting)", price:250 }
+
+          
+        ]
+      },
+        {
+        title: "bazar 3: saturday  07-11-25",
+        items: [
+          { name: "alu", qty: "20 kg", price: "280 " },
+          { name: "pepe", qty :" 10 kg ", price: "70 "},
+          { name: "piyas", qty :" 2 kj ", price: "200 "},
+          { name: "morich", qty: "2 kg", price: "140" },
+         
+          { name: "sukna morich", qty :" ..", price: "30"},
+          { name: "ada + roson", qty :" ..", price: "30 "},
+          { name: "murgi", qty :" 2.850 kg", price: "440 "},
+          { name: "mach", qty :" 3.600 kg", price: "560 "},
+          { name: "dim + mosla bazar", qty :"35 pich", price: "1300 "},
+         
+          
+          { name: "vara + khaoa", qty :"..", price: "150 "},
+        ]
+        },
+        {
+        title: "bazar 4:Tuesday  10-11-25",
+        items: [
+          { name: "piyas", qty :" 2 kj ", price: "210 "},
+          { name: "morich", qty: "1 kg", price: "100" },
+          { name: "ada + roson", qty :" ..", price: "30 "},
+          { name: "sukna morich", qty :" ..", price: "30"},
+          { name: "alu", qty: "20 kg", price: "280 " },
+          { name: "pepe", qty :" 10 kg ", price: "100 "},
+          { name: "mach", qty :" 3.500 kg", price: "570 "},
+         
+          { name: "murgi", qty :" 3.500 kg", price: "540 "},
+          { name: "dim ", qty :"45 pich", price: "425 "},
+         
+          { name: "mosla bajar", qty :" mot ", price: 540},
+          { name: "vara + khaoa", qty :"..", price: "150 "},
+        ]
+        },
+        {
+        title: "bazar 5 : Thursday  13-11-25",
+        items: [
+          { name: "alu", qty: "20 kg", price: "320 " },
+          { name: "putol ", qty: "1 kg", price: "40 " },
+          { name: "fullkopi  ", qty: "4 kg", price: "150 " },
+          { name: "piyas", qty :" 2 kj ", price: "190 "},
+          { name: "morich", qty: "1 kg", price: "100" },
+          { name: "ada + roson", qty :" ..", price: "30 "},
+          { name: "sukna morich", qty :" ..", price: "30"},
+          
+          { name: "mach", qty :" 3.500 kg", price: "580"},
+         
+          { name: "murgi", qty :" 3.700 kg", price: "550"},
+          { name: "dim ", qty :"43 pich", price: "400 "},
+         
+          { name: "mosla bajar", qty :" mot ", price:"680"},
+          { name: "vara + khaoa", qty :"..", price: "150"},
+        ],
+        },
+
+   
     ];
 
     const container = document.getElementById("bazarContainer");
@@ -71,7 +133,7 @@
 
       bazar.items.forEach((item, j) => {
         const key = `${i}-${j}`;
-        const checked = savedData[key]?.checked || false;
+        const checked = savedData[key]?.checked || true;
 
         const tr = document.createElement("tr");
         const checkbox = document.createElement("input");
@@ -125,8 +187,16 @@
     updatePurchaseList();
 
     function clearAll() {
-      if (confirm("সব ডেটা মুছে ফেলতে চাও?")) {
+      if (confirm("are you all data clear ?")) {
         localStorage.removeItem("bazarStatus");
         location.reload();
       }
-    }
+  }
+
+    //nabber function declear
+   function toggleMenu() {
+    const nav = document.getElementById("navbar")
+    nav.classList.toggle("show");
+
+  
+   }

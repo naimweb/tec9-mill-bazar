@@ -1,90 +1,118 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css">
-  <title> মিলের বাজার</title>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href ="style.css">
+    <title>Document Title</title>
 </head>
-<body>
 
-  <header>🍛 মিলের বাজার</header>
+<header>🍛 মিলের বাজার</header>
 
-  <nav>
-    <button class="active" onclick="showSection('home')">🏠 Home</button>
-    <button onclick="showSection('bazar')">🛒 bajar</button>
-    <button onclick="showSection('members')">👥 member-list</button>
-    <button onclick="showSection('purchase')">📦 khori</button>
-  </nav>
+<div class="main" onclick="toggleMenu()">
+  <span></span>
+  <span></span>   
+  <span></span>
+</div>
 
-  <section id="home" class="active">
-    <h2>Welcome to Tec 9th floor boys hostell</h2>
-    <p>এই ওয়েবসাইটে তুমি তোমাদের মিলের বাজার, সদস্য, এবং ক্রয়ের তালিকা দেখতে পারবে।</p>
-  </section>
+<nav id="navbar">
+  <button class="active" onclick="showSection('home', this)">🏠 Home</button>
+  <button onclick="showSection('bazar', this)">🛒 bajar</button>
+  <button onclick="showSection('members', this)">👥 member-list</button>
+  <button onclick="showSection('purchase', this)">📦 khori</button>
+</nav>
 
-  <section id="bazar">
-    <h2>🛍️ বাজারের তালিকা</h2>
-    <div id="bazarContainer"></div>
-    <button class="clear-btn" onclick="clearAll()">🧹 সব ক্লিয়ার করো</button>
-  </section>
+<section id="home" class="active">
+  <h1> Welcome To My 9th Floor Boys Hostell... 🍱</h1>
+  <p style = "font-size: 20px; font-weight: bold;">“হোস্টেল মানে শুধু রুম আর খাট না—
+এটা স্মৃতি, পরিবার, আর অজস্র ভালোবাসার নাম।   ”</p> <br>
+<em>
 
-  <section id="members">
-    <h2>👥 সদস্য তালিকা</h2>
-    <div class="member-list">
-      <ul>
-        
-        <li>2. Aslam(1001)   -------------- <span></span></li>
-        <li>3. sajedul(1001) -------------- <span>200 tk</span></li>
-        <li>4. Abir(1001)   -------------- <span>700  tk</span></li>
-        <li>5. shitol(1001)   -------------- <span></span></li>
-        <li>6. laki(1002)   -------------- <span></span></li>
-        <li>7. munna(1002)   -------------- <span></span></li>
-        <li>8. proshanto(1002)   -------------- <span></span></li>
-        <li>9. jon(1002)   -------------- <span></span></li>
-        <li>10. joi(1002)   -------------- <span> 1700 tk</span></li>
-        <li>11. Rifat(1003)   -------------- <span> 500 tk</span></li>
-        <li>12. noyon(1003)   -------------- <span></span></li>
-        <li>13. Naim(1004)   -------------- <span></span></li>
-        <li>14. Rejoan(1004)   -------------- <span></span></li>
-        <li>15. Mishu(1004)   -------------- <span></span></li>
-        <li>16. Roki(1005)   -------------- <span></span></li>
-        <li>17. Manik(1005)   -------------- <span></span></li>
-        <li>18. Rifat(1005)   -------------- <span></span></li>
-        <li>19. Kader (1006)   -------------- <span></span></li>
-        <li>20. ongkon sir(1007)   -------------- <span> 1000 tk</span></li>
-        <li>21. Raju sir(1007)   -------------- <span> 1000 tk</span></li>
-        <li>22. jasiyar sir(1007)   -------------- <span></span></li>
-        <li>23. jitu sir(1007)   -------------- <span></span></li>
-        <li>24. Ahsan(1008)   -------------- <span></span></li>
-        <li>25. Ashik(1008)   -------------- <span></span></li>
-        <li>26. Atikur(1008)   -------------- <span></span></li>
-        <li>27. Billa(1009)   -------------- <span></span></li>
-        <li>28. Rubel(10019)   -------------- <span></span></li>
-        <li>29. Hujaifa(1010)   -------------- <span> 1700 tk</span></li>
-        <li>30. Murad(1010)   -------------- <span></span></li>
-        <li>31. shurov "big"(1010)   -------------- <span>1500 tk</span></li>
-        <li>32. shurov "choto"(1001)   -------------- <span>1000 tk</span></li>
-        
-        
-     
-      </ul>
-    </div>
-  </section>
+  <p style ="font-size: 20px; background-color: rgb(226, 255, 207); ">এখানে বাজার লিস্ট, মেম্বার লিস্ট এবং খড়ি লিস্ট দেওয়া আছে।  এগুলো  আপনারা দেখতে পারবেন। 
+    মূলত আমাদের মাস শেষে মিল এর মিটিং এর সময় সবাই একটা খাতা এক এক করে দেখতে পারে না,
+    এই জন্য আপনাদের সুবিধার জন্য এই Website বানানো, 
+    এখানে খাতার সব text গুলো লিপিবদ্দ আকারে লেখা আছে।</p>
+  </em>
+  <h2 style="display: flex; justify-content: flex-end; font-size:17px; position:relative;top:90px; border:5px solid; border-color:greenyellow; border-radius:10px;width:fit-content; height:auto; padding: 10px; background-color: black; color: white;" > Manager with Naim & Billah   { Innocent person 😊}</h2>
 
-  <section id="purchase">
-    <h2>31 - 10 - 2025</h2>
-    <li>3.5 =770+20+100 tk  </li>
-    <div>
-    <!-- <h2>Date:04-11-2025</h2>
-    <li>4mon = 500tk</li> -->
-    </div>
-  </section>
-  
+</section>
 
-  <div id='foter'>
-    <footer>© 2025 mill bazar | creator with Naim !</footer>
+<section id="bazar">
+  <h2>🛍️ বাজারের তালিকা</h2>
+
+  <div id="bazarContainer"></div>
+  <button class="clear-btn" onclick="clearAll()">🧹 All clear</button>
+</section>
+
+<section id="members">
+
+  <div class="member-list">
+    <ul>
+      <li>1... Aslam (1001) - <span>1700 tk</span></li>
+      <li>2... Sajedul (1001) - <span>1500 tk</span></li>
+      <li>3... Shitol (1001) - <span>1700 tk</span></li>
+    
+      <li>4... Abir (1001) - <span>1000 tk</span></li>
+      <li>5... Laki(Tudu) (1002) - <span>0 tk</span></li>
+      <li>6... Munna(Tudu)  (1002) - <span>0 tk</span></li>
+      <li>7... Proshanto(Tudu) (1002) - <span>1700 tk</span></li>
+      <li>8... jon(Tudu) (1002) - <span>500 tk</span></li>
+      <li>9... Joi (Tudu) (1002) - <span>1700 tk</span></li>
+      <li>10... Rifat (Distrub) (1003) - <span>1500 tk</span></li>
+      <li>11... Noyon (1003) - <span>0 tk</span></li>
+      <li>12...Mishu (1004) - <span>200 tk</span></li>
+      <li>13... Rejoan  (1004) - <span>1700 tk</span></li>
+      <li>14... Naim shekh (1004) - <span>1700 tk</span></li>
+      <li>15... Roki (1005) - <span>0 tk</span></li>
+      <li>16... Rifat (1005) - <span>1700 tk</span></li>
+      <li>17... Manik (1005) - <span>0 tk</span></li>
+      <li>18... Kader (1006) - <span>500 tk</span></li>
+       
+      <li>19...Ankon Sir (1007) - <span>1700 tk</span></li>
+      <li>20... Raju Sir (1007) - <span>800 tk</span></li>
+      <li>21... Jashiyar Sir (1007) - <span>1700 tk</span></li>
+      <li>22... Jitu Sir (1007) - <span>1700 tk</span></li>
+      <li>23... Ahsan (1008) - <span>1000 tk</span></li>
+      <li>24... Ashik (1008) - <span>700 tk</span></li>
+      <li>25... Atikur (1008) - <span>1000 tk</span></li>
+      <li>26... Siyam (1008) - <span>800 tk</span></li>
+      <li>27... Billah (hujor) (1009) - <span>1700 tk</span></li>
+      <li>28... Rubel (1009) - <span>0 tk</span></li>
+      <li>29... Sourov(1010) - <span>1500 tk</span></li>
+      <li>30... Murad (1010) - <span>800 tk</span></li>
+      <li>31... Hujaifa(1010) - <span>1700 tk</span></li>
+      <li>32...sourov (small) (1010) - <span>1000 tk</span></li>
+    </ul>
   </div>
+</section>
+
+<section id="purchase">
+  <h2>31 - 10 - 2025</h2>
+  <li>3.5 = 880 tk</li>
+
+  <div>
+
+    <h2>4 - 11 - 2025</h2>
+    <li>5 = 1205 tk</li>
+  </div>
+  <div>
+
+    <h2>9- 11 - 2025</h2>
+    <li>5 = 1220 tk</li>
+  </div>
+  <div>
+
+    <h2>13- 11 - 2025</h2>
+    <li>5 = 1210 tk</li>
+  </div>
+  <div class = "max">
+    <h1>Reacharge 50tk </h1>
+  </div>
+  </section>
+
+<div id="foter">
+  <footer>© 2025 mill bazar | Creator with Naim dev !</footer>
+</div>
 
 </body>
 </html>
